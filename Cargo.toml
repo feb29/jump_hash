@@ -1,0 +1,12 @@
+[package]
+name    = "jump_hash"
+version = "0.1.0"
+authors = ["Kohei Watanabe <xbeef29@gmail.com>"]
+readme  = "README.md"
+license = "Unlicense/MIT"
+repository  = "https://github.com/feb29/jump_hash"
+keywords    = ["jump", "consistent", "hash"]
+description = "Jump Consistent Hash for rust"
+
+[dev-dependencies]
+seahash = "3.0"
