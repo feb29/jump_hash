@@ -1,4 +1,4 @@
-package jumphash
+package jump_hash
 
 func Slot(k uint64, n int) uint32 {
 	if n <= 0 {

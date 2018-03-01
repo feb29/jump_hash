@@ -55,7 +55,7 @@ where
         JumpHash { slots, state }
     }
 
-    /// Takes a key, outputs a bucket number `0..buckets`.
+    /// Takes a key, outputs a number `0..slots`.
     pub fn get<T: Hash + ?Sized>(&self, key: &T) -> u32 {
         let hasher = &mut self.state.build_hasher();
         key.hash(hasher);
